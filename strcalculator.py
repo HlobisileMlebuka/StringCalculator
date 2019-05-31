@@ -12,7 +12,7 @@ def add(numberstr):
         SumTotal = 0
         splitstring = re.findall(r"\d+", numberstr)
         for num in splitstring:
-            SumTotal = SumTotal + int(num)
+            SumTotal += int(num)
         return SumTotal
                 
 
